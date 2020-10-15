@@ -3,8 +3,8 @@ export EZRASSOR_WORKSPACE="$HOME/ezrassor_ws"
 alias ertb="ezrassor_toolbox"
 alias ezrassor-toolbox="ezrassor_toolbox"
 alias init-ros-melodic=". /opt/ros/melodic/setup.bash"
-alias init-ezrassor-melodic-devel=". $EZRASSOR_WORKSPACE/devel/setup.bash"
-alias init-ezrassor-melodic-install=". $EZRASSOR_WORKSPACE/install/setup.bash"
+alias init-ezrassor-melodic-devel='. $EZRASSOR_WORKSPACE/devel/setup.bash'
+alias init-ezrassor-melodic-install='. $EZRASSOR_WORKSPACE/install/setup.bash'
 
 ezrassor_toolbox() {
   if [ $# -lt 1 ]; then
